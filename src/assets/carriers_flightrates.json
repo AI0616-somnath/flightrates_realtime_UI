@@ -1,0 +1,1941 @@
+[{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdec"
+  },
+  "source": "Gulf Air",
+  "code": "117",
+  "vertical": "flightrates",
+  "userAirlineCode": 13
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefde1"
+  },
+  "source": "Mauritania Airlines",
+  "code": "105",
+  "vertical": "flightrates",
+  "userAirlineCode": 352
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdd6"
+  },
+  "source": "ASKY Airlines",
+  "code": "92",
+  "vertical": "flightrates",
+  "userAirlineCode": 339
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdd7"
+  },
+  "source": "Badr Airlines",
+  "code": "94",
+  "vertical": "flightrates",
+  "userAirlineCode": 341
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe96"
+  },
+  "source": "Air Moana",
+  "code": "297",
+  "vertical": "flightrates",
+  "userAirlineCode": 695
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdc3"
+  },
+  "source": "Druk Air",
+  "code": "72",
+  "vertical": "flightrates",
+  "userAirlineCode": 295
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe09"
+  },
+  "source": "NAM Air",
+  "code": "146",
+  "vertical": "flightrates",
+  "userAirlineCode": 409
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdfc"
+  },
+  "source": "Green Africa Airways",
+  "code": "133",
+  "vertical": "flightrates",
+  "userAirlineCode": 347
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe90"
+  },
+  "source": "Swiss",
+  "code": "291",
+  "vertical": "flightrates",
+  "userAirlineCode": 32
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe7a"
+  },
+  "source": "SKS Airways",
+  "code": "269",
+  "vertical": "flightrates",
+  "userAirlineCode": 673
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefda0"
+  },
+  "source": "Malindo Air",
+  "code": "36",
+  "vertical": "flightrates",
+  "userAirlineCode": 122
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdd8"
+  },
+  "source": "CemAir",
+  "code": "95",
+  "vertical": "flightrates",
+  "userAirlineCode": 342
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe63"
+  },
+  "source": "Sky Airline",
+  "code": "242",
+  "vertical": "flightrates",
+  "userAirlineCode": 452
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe6e"
+  },
+  "source": "ITA Airways",
+  "code": "252",
+  "vertical": "flightrates",
+  "userAirlineCode": 393
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdfe"
+  },
+  "source": "Aero Airlines",
+  "code": "135",
+  "vertical": "flightrates",
+  "userAirlineCode": 396
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefda7"
+  },
+  "source": "Alaska",
+  "code": "43",
+  "vertical": "flightrates",
+  "userAirlineCode": 4
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe82"
+  },
+  "source": "Silver Wings",
+  "code": "277",
+  "vertical": "flightrates",
+  "userAirlineCode": 422
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdb7"
+  },
+  "source": "DAALLO Airlines",
+  "code": "60",
+  "vertical": "flightrates",
+  "userAirlineCode": 268
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe5a"
+  },
+  "source": "JetAir Caribbean",
+  "code": "232",
+  "vertical": "flightrates",
+  "userAirlineCode": 560
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefda5"
+  },
+  "source": "Aerolineas Argentinas",
+  "code": "41",
+  "vertical": "flightrates",
+  "userAirlineCode": 146
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe4b"
+  },
+  "source": "Saudia Airline",
+  "code": "216",
+  "vertical": "flightrates",
+  "userAirlineCode": 115
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe47"
+  },
+  "source": "La Compagnie",
+  "code": "211",
+  "vertical": "flightrates",
+  "userAirlineCode": 546
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe95"
+  },
+  "source": "Air Tahiti",
+  "code": "296",
+  "vertical": "flightrates",
+  "userAirlineCode": 575
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe97"
+  },
+  "source": "Air Transat",
+  "code": "298",
+  "vertical": "flightrates",
+  "userAirlineCode": 505
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdb1"
+  },
+  "source": "Pacific Airlines",
+  "code": "53",
+  "vertical": "flightrates",
+  "userAirlineCode": 165
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe28"
+  },
+  "source": "Syrian Air",
+  "code": "178",
+  "vertical": "flightrates",
+  "userAirlineCode": 481
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdd3"
+  },
+  "source": "Air Tanzania",
+  "code": "88",
+  "vertical": "flightrates",
+  "userAirlineCode": 335
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe41"
+  },
+  "source": "Lion air",
+  "code": "206",
+  "vertical": "flightrates",
+  "userAirlineCode": 92
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe7e"
+  },
+  "source": "United Airlines",
+  "code": "273",
+  "vertical": "flightrates"
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdc6"
+  },
+  "source": "Golden Myanmar Airlines",
+  "code": "75",
+  "vertical": "flightrates",
+  "userAirlineCode": 298
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe0a"
+  },
+  "source": "Iran Aseman Airlines",
+  "code": "147",
+  "vertical": "flightrates",
+  "userAirlineCode": 429
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe1c"
+  },
+  "source": "Mongolian Airlines",
+  "code": "166",
+  "vertical": "flightrates",
+  "userAirlineCode": 470
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe91"
+  },
+  "source": "Norse Atlantic Airways",
+  "code": "292",
+  "vertical": "flightrates",
+  "userAirlineCode": 600
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe11"
+  },
+  "source": "China Eastern Airlines",
+  "code": "155",
+  "vertical": "flightrates",
+  "userAirlineCode": 57
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe6f"
+  },
+  "source": "Royal Jordanian",
+  "code": "253",
+  "vertical": "flightrates",
+  "userAirlineCode": 72
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe92"
+  },
+  "source": "Greater Bay Airline",
+  "code": "293",
+  "vertical": "flightrates",
+  "userAirlineCode": 690
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdba"
+  },
+  "source": "Mahan Air",
+  "code": "63",
+  "vertical": "flightrates",
+  "userAirlineCode": 271
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefddf"
+  },
+  "source": "Malawian Airlines",
+  "code": "103",
+  "vertical": "flightrates",
+  "userAirlineCode": 350
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefddc"
+  },
+  "source": "FlySafair",
+  "code": "99",
+  "vertical": "flightrates",
+  "userAirlineCode": 346
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe85"
+  },
+  "source": "Volaris",
+  "code": "280",
+  "vertical": "flightrates",
+  "userAirlineCode": 417
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefea5"
+  },
+  "source": "FlyOne Armenia",
+  "code": "311",
+  "vertical": "flightrates",
+  "userAirlineCode": 569
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe0d"
+  },
+  "source": "Saurya Airlines",
+  "code": "150",
+  "vertical": "flightrates",
+  "userAirlineCode": 431
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe9b"
+  },
+  "source": "Pelita Air",
+  "code": "302",
+  "vertical": "flightrates",
+  "userAirlineCode": 640
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdf8"
+  },
+  "source": "Turkish Airlines",
+  "code": "129",
+  "vertical": "flightrates",
+  "userAirlineCode": 20
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe94"
+  },
+  "source": "Sun Country Airlines",
+  "code": "295",
+  "vertical": "flightrates",
+  "userAirlineCode": 190
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe13"
+  },
+  "source": "Sharp Airlines",
+  "code": "157",
+  "vertical": "flightrates",
+  "userAirlineCode": 460
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdde"
+  },
+  "source": "kulula",
+  "code": "102",
+  "vertical": "flightrates",
+  "userAirlineCode": 349
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe66"
+  },
+  "source": "InterCaribbean Airways",
+  "code": "243",
+  "vertical": "flightrates",
+  "userAirlineCode": 484
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdbf"
+  },
+  "source": "Cinnamon Air",
+  "code": "68",
+  "vertical": "flightrates",
+  "userAirlineCode": 291
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdda"
+  },
+  "source": "Fastjet",
+  "code": "97",
+  "vertical": "flightrates",
+  "userAirlineCode": 344
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdee"
+  },
+  "source": "SalamAir",
+  "code": "119",
+  "vertical": "flightrates",
+  "userAirlineCode": 215
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe31"
+  },
+  "source": "Batik Air",
+  "code": "189",
+  "vertical": "flightrates",
+  "userAirlineCode": 141
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefd96"
+  },
+  "source": "GoFirst",
+  "code": "23",
+  "vertical": "flightrates",
+  "userAirlineCode": 12
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdff"
+  },
+  "source": "Air Peace",
+  "code": "136",
+  "vertical": "flightrates",
+  "userAirlineCode": 362
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe98"
+  },
+  "source": "Swoop",
+  "code": "299",
+  "vertical": "flightrates",
+  "userAirlineCode": 524
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefde7"
+  },
+  "source": "Tsaradia",
+  "code": "112",
+  "vertical": "flightrates",
+  "userAirlineCode": 359
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe32"
+  },
+  "source": "Lufthansa",
+  "code": "188",
+  "vertical": "flightrates",
+  "userAirlineCode": 29
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe7b"
+  },
+  "source": "WestJet",
+  "code": "270",
+  "vertical": "flightrates"
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdae"
+  },
+  "source": "Cambodia Angkor Air",
+  "code": "50",
+  "vertical": "flightrates",
+  "userAirlineCode": 162
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe39"
+  },
+  "source": "Air France",
+  "code": "197",
+  "vertical": "flightrates",
+  "userAirlineCode": 28
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdb5"
+  },
+  "source": "Thai Smile",
+  "code": "57",
+  "vertical": "flightrates",
+  "userAirlineCode": 169
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe3c"
+  },
+  "source": "SriLankan Airlines",
+  "code": "201",
+  "vertical": "flightrates",
+  "userAirlineCode": 77
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefd9f"
+  },
+  "source": "Firefly",
+  "code": "35",
+  "vertical": "flightrates",
+  "userAirlineCode": 127
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe8e"
+  },
+  "source": "Air Tahiti NUI",
+  "code": "289",
+  "vertical": "flightrates",
+  "userAirlineCode": 105
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe72"
+  },
+  "source": "Sky High Aviation Services",
+  "code": "256",
+  "vertical": "flightrates",
+  "userAirlineCode": 632
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe3e"
+  },
+  "source": "Jetstar Asia Airways",
+  "code": "203",
+  "vertical": "flightrates",
+  "userAirlineCode": 84
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefea6"
+  },
+  "source": "BermudAir",
+  "code": "315",
+  "vertical": "flightrates",
+  "userAirlineCode": 701
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe75"
+  },
+  "source": "Air North Yukon's Airline",
+  "code": "263",
+  "vertical": "flightrates",
+  "userAirlineCode": 677
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe58"
+  },
+  "source": "Wingo",
+  "code": "230",
+  "vertical": "flightrates",
+  "userAirlineCode": 413
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe46"
+  },
+  "source": "Nordic Regional Airlines",
+  "code": "210",
+  "vertical": "flightrates",
+  "userAirlineCode": 555
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdf5"
+  },
+  "source": "Wizz Air",
+  "code": "126",
+  "vertical": "flightrates",
+  "userAirlineCode": 148
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe22"
+  },
+  "source": "Solomon Airlines",
+  "code": "172",
+  "vertical": "flightrates",
+  "userAirlineCode": 475
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe62"
+  },
+  "source": "Air Century",
+  "code": "241",
+  "vertical": "flightrates",
+  "userAirlineCode": 503
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdc1"
+  },
+  "source": "NovoAir",
+  "code": "70",
+  "vertical": "flightrates",
+  "userAirlineCode": 293
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe14"
+  },
+  "source": "Skippers Aviation",
+  "code": "158",
+  "vertical": "flightrates",
+  "userAirlineCode": 461
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdbe"
+  },
+  "source": "Zagros Airlines",
+  "code": "67",
+  "vertical": "flightrates",
+  "userAirlineCode": 275
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefddd"
+  },
+  "source": "Jambojet",
+  "code": "101",
+  "vertical": "flightrates",
+  "userAirlineCode": 348
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe12"
+  },
+  "source": "FlyPelican",
+  "code": "156",
+  "vertical": "flightrates",
+  "userAirlineCode": 442
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe02"
+  },
+  "source": "Ibom Air",
+  "code": "139",
+  "vertical": "flightrates",
+  "userAirlineCode": 397
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe9d"
+  },
+  "source": "Nile Air",
+  "code": "304",
+  "vertical": "flightrates",
+  "userAirlineCode": 195
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefde0"
+  },
+  "source": "Mango Airlines",
+  "code": "104",
+  "vertical": "flightrates",
+  "userAirlineCode": 351
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe4f"
+  },
+  "source": "elal",
+  "code": "220",
+  "vertical": "flightrates",
+  "userAirlineCode": 113
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefda2"
+  },
+  "source": "GOL",
+  "code": "38",
+  "vertical": "flightrates",
+  "userAirlineCode": 145
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdcc"
+  },
+  "source": "Shree Airlines",
+  "code": "81",
+  "vertical": "flightrates",
+  "userAirlineCode": 311
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdd4"
+  },
+  "source": "Air Zimbabwe",
+  "code": "89",
+  "vertical": "flightrates",
+  "userAirlineCode": 336
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdf1"
+  },
+  "source": "Oman Air",
+  "code": "122",
+  "vertical": "flightrates",
+  "userAirlineCode": 17
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe4a"
+  },
+  "source": "Thai Airways",
+  "code": "215",
+  "vertical": "flightrates",
+  "userAirlineCode": 83
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe87"
+  },
+  "source": "USBangla",
+  "code": "282",
+  "vertical": "flightrates",
+  "userAirlineCode": 180
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe1a"
+  },
+  "source": "Aero Mongolia",
+  "code": "164",
+  "vertical": "flightrates",
+  "userAirlineCode": 468
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdad"
+  },
+  "source": "Cambodia Airways",
+  "code": "49",
+  "vertical": "flightrates",
+  "userAirlineCode": 161
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe86"
+  },
+  "source": "Viva Aerobus",
+  "code": "281",
+  "vertical": "flightrates",
+  "userAirlineCode": 416
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe42"
+  },
+  "source": "Biman Bangladesh Airlines",
+  "code": "200",
+  "vertical": "flightrates",
+  "userAirlineCode": 76
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefda4"
+  },
+  "source": "Eastern Airlines",
+  "code": "40",
+  "vertical": "flightrates",
+  "userAirlineCode": 136
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe4c"
+  },
+  "source": "Flynas",
+  "code": "217",
+  "vertical": "flightrates",
+  "userAirlineCode": 82
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe16"
+  },
+  "source": "Air Manas",
+  "code": "160",
+  "vertical": "flightrates",
+  "userAirlineCode": 463
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdf7"
+  },
+  "source": "Scat Airlines",
+  "code": "128",
+  "vertical": "flightrates",
+  "userAirlineCode": 259
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe25"
+  },
+  "source": "Tarco Airlines",
+  "code": "175",
+  "vertical": "flightrates",
+  "userAirlineCode": 478
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefddb"
+  },
+  "source": "Fly540",
+  "code": "98",
+  "vertical": "flightrates",
+  "userAirlineCode": 345
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe03"
+  },
+  "source": "United Nigeria",
+  "code": "140",
+  "vertical": "flightrates",
+  "userAirlineCode": 361
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe06"
+  },
+  "source": "Regent Airways",
+  "code": "143",
+  "vertical": "flightrates",
+  "userAirlineCode": 427
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe07"
+  },
+  "source": "Cabo Verde Airlines",
+  "code": "144",
+  "vertical": "flightrates",
+  "userAirlineCode": 428
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe08"
+  },
+  "source": "Sky Angkor Airlines",
+  "code": "145",
+  "vertical": "flightrates",
+  "userAirlineCode": 410
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe1b"
+  },
+  "source": "Hunnu Air",
+  "code": "165",
+  "vertical": "flightrates",
+  "userAirlineCode": 469
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe54"
+  },
+  "source": "Cyprus Airways",
+  "code": "225",
+  "vertical": "flightrates",
+  "userAirlineCode": 239
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdb2"
+  },
+  "source": "Lao Airlines",
+  "code": "54",
+  "vertical": "flightrates",
+  "userAirlineCode": 166
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe1d"
+  },
+  "source": "Nauru Airlines",
+  "code": "167",
+  "vertical": "flightrates",
+  "userAirlineCode": 471
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdea"
+  },
+  "source": "Arkia",
+  "code": "115",
+  "vertical": "flightrates",
+  "userAirlineCode": 265
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe99"
+  },
+  "source": "KISH",
+  "code": "300",
+  "vertical": "flightrates",
+  "userAirlineCode": 572
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe29"
+  },
+  "source": "Rotana Jet",
+  "code": "179",
+  "vertical": "flightrates",
+  "userAirlineCode": 482
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe67"
+  },
+  "source": "American Airlines",
+  "code": "244",
+  "vertical": "flightrates",
+  "userAirlineCode": 5
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdc0"
+  },
+  "source": "FitsAir",
+  "code": "69",
+  "vertical": "flightrates",
+  "userAirlineCode": 292
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe40"
+  },
+  "source": "Qatar Airways",
+  "code": "205",
+  "vertical": "flightrates",
+  "userAirlineCode": 18
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe44"
+  },
+  "source": "Trade Air",
+  "code": "208",
+  "vertical": "flightrates",
+  "userAirlineCode": 539
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe27"
+  },
+  "source": "Cham Wings Airlines",
+  "code": "177",
+  "vertical": "flightrates",
+  "userAirlineCode": 480
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe2b"
+  },
+  "source": "LIFT Airline",
+  "code": "183",
+  "vertical": "flightrates",
+  "userAirlineCode": 370
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe43"
+  },
+  "source": "Air Rarotonga",
+  "code": "207",
+  "vertical": "flightrates",
+  "userAirlineCode": 553
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe6d"
+  },
+  "source": "Air India",
+  "code": "251",
+  "vertical": "flightrates",
+  "userAirlineCode": 3
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe01"
+  },
+  "source": "Azman Air",
+  "code": "138",
+  "vertical": "flightrates",
+  "userAirlineCode": 340
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe74"
+  },
+  "source": "Air Canada",
+  "code": "264",
+  "vertical": "flightrates",
+  "userAirlineCode": 47
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe6a"
+  },
+  "source": "Pakistan International Airlines",
+  "code": "247",
+  "vertical": "flightrates",
+  "userAirlineCode": 214
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe8a"
+  },
+  "source": "TAP",
+  "code": "285",
+  "vertical": "flightrates",
+  "userAirlineCode": 74
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdb9"
+  },
+  "source": "IranAir",
+  "code": "62",
+  "vertical": "flightrates",
+  "userAirlineCode": 270
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe17"
+  },
+  "source": "Libyan Air",
+  "code": "161",
+  "vertical": "flightrates",
+  "userAirlineCode": 464
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdc8"
+  },
+  "source": "Yeti Airlines",
+  "code": "77",
+  "vertical": "flightrates",
+  "userAirlineCode": 300
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe21"
+  },
+  "source": "PNG Air",
+  "code": "171",
+  "vertical": "flightrates",
+  "userAirlineCode": 474
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe3f"
+  },
+  "source": "Air Vistara",
+  "code": "204",
+  "vertical": "flightrates",
+  "userAirlineCode": 22
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe19"
+  },
+  "source": "Manta Air",
+  "code": "163",
+  "vertical": "flightrates",
+  "userAirlineCode": 467
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdce"
+  },
+  "source": "Aero Contractors",
+  "code": "83",
+  "vertical": "flightrates",
+  "userAirlineCode": 330
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe9e"
+  },
+  "source": "EgyptAir",
+  "code": "305",
+  "vertical": "flightrates",
+  "userAirlineCode": 58
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefd99"
+  },
+  "source": "Spirit",
+  "code": "26",
+  "vertical": "flightrates",
+  "userAirlineCode": 35
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe3d"
+  },
+  "source": "Singapore Airline",
+  "code": "202",
+  "vertical": "flightrates",
+  "userAirlineCode": 73
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe2d"
+  },
+  "source": "Air India Express",
+  "code": "184",
+  "vertical": "flightrates",
+  "userAirlineCode": 39
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefd97"
+  },
+  "source": "Latam",
+  "code": "24",
+  "vertical": "flightrates",
+  "userAirlineCode": 68
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe8d"
+  },
+  "source": "Vueling",
+  "code": "288",
+  "vertical": "flightrates",
+  "userAirlineCode": 27
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefde8"
+  },
+  "source": "Zanair",
+  "code": "113",
+  "vertical": "flightrates",
+  "userAirlineCode": 360
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe55"
+  },
+  "source": "Aegean Airlines",
+  "code": "226",
+  "vertical": "flightrates",
+  "userAirlineCode": 112
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdf4"
+  },
+  "source": "Etihad Airways",
+  "code": "125",
+  "vertical": "flightrates",
+  "userAirlineCode": 10
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe1f"
+  },
+  "source": "Air Caledonie",
+  "code": "169",
+  "vertical": "flightrates",
+  "userAirlineCode": 390
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe81"
+  },
+  "source": "Breeze Airways",
+  "code": "276",
+  "vertical": "flightrates",
+  "userAirlineCode": 620
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe84"
+  },
+  "source": "Avelo",
+  "code": "279",
+  "vertical": "flightrates",
+  "userAirlineCode": 680
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdf6"
+  },
+  "source": "Qazaq Air",
+  "code": "127",
+  "vertical": "flightrates",
+  "userAirlineCode": 262
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe15"
+  },
+  "source": "Skytrans",
+  "code": "159",
+  "vertical": "flightrates",
+  "userAirlineCode": 462
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe83"
+  },
+  "source": "Allegiant Air",
+  "code": "278",
+  "vertical": "flightrates",
+  "userAirlineCode": 154
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefda1"
+  },
+  "source": "JetBlue",
+  "code": "37",
+  "vertical": "flightrates",
+  "userAirlineCode": 37
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdbc"
+  },
+  "source": "Qeshm Airlines",
+  "code": "65",
+  "vertical": "flightrates",
+  "userAirlineCode": 273
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdcd"
+  },
+  "source": "Sounds Air",
+  "code": "82",
+  "vertical": "flightrates",
+  "userAirlineCode": 329
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe35"
+  },
+  "source": "Sriwijaya Air",
+  "code": "192",
+  "vertical": "flightrates",
+  "userAirlineCode": 206
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefea4"
+  },
+  "source": "Fly Arna",
+  "code": "310",
+  "vertical": "flightrates",
+  "userAirlineCode": 700
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdc5"
+  },
+  "source": "AirSial",
+  "code": "74",
+  "vertical": "flightrates",
+  "userAirlineCode": 297
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe36"
+  },
+  "source": "IndiGo",
+  "code": "193",
+  "vertical": "flightrates",
+  "userAirlineCode": 14
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe8c"
+  },
+  "source": "Scandinavian Airlines",
+  "code": "287",
+  "vertical": "flightrates",
+  "userAirlineCode": 34
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefda3"
+  },
+  "source": "Copa Airlines",
+  "code": "39",
+  "vertical": "flightrates",
+  "userAirlineCode": 135
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdc9"
+  },
+  "source": "Buddha Air",
+  "code": "78",
+  "vertical": "flightrates",
+  "userAirlineCode": 301
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdfb"
+  },
+  "source": "Aeroflot",
+  "code": "132",
+  "vertical": "flightrates",
+  "userAirlineCode": 44
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe4d"
+  },
+  "source": "Flyadeal",
+  "code": "218",
+  "vertical": "flightrates",
+  "userAirlineCode": 231
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefda9"
+  },
+  "source": "BritishAirways",
+  "code": "45",
+  "vertical": "flightrates",
+  "userAirlineCode": 6
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe56"
+  },
+  "source": "Ryanair",
+  "code": "227",
+  "vertical": "flightrates",
+  "userAirlineCode": 31
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdca"
+  },
+  "source": "Loong Air",
+  "code": "79",
+  "vertical": "flightrates",
+  "userAirlineCode": 302
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe7d"
+  },
+  "source": "RED Air S.R.L.",
+  "code": "272",
+  "vertical": "flightrates"
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe2f"
+  },
+  "source": "Citilink",
+  "code": "186",
+  "vertical": "flightrates",
+  "userAirlineCode": 181
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe5e"
+  },
+  "source": "Frontier Airlines",
+  "code": "237",
+  "vertical": "flightrates",
+  "userAirlineCode": 61
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefd9c"
+  },
+  "source": "AirAsia",
+  "code": "32",
+  "vertical": "flightrates",
+  "userAirlineCode": 2
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe0e"
+  },
+  "source": "Hong Kong Airlines",
+  "code": "152",
+  "vertical": "flightrates",
+  "userAirlineCode": 128
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe00"
+  },
+  "source": "Max Air",
+  "code": "137",
+  "vertical": "flightrates",
+  "userAirlineCode": 353
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe59"
+  },
+  "source": "Avianca",
+  "code": "231",
+  "vertical": "flightrates",
+  "userAirlineCode": 138
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdb4"
+  },
+  "source": "Nok Air",
+  "code": "56",
+  "vertical": "flightrates",
+  "userAirlineCode": 168
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe88"
+  },
+  "source": "Hahn Air Systems",
+  "code": "283",
+  "vertical": "flightrates",
+  "userAirlineCode": 23
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe20"
+  },
+  "source": "Golden Bay Air",
+  "code": "170",
+  "vertical": "flightrates",
+  "userAirlineCode": 473
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefde4"
+  },
+  "source": "Proflight Zambia",
+  "code": "109",
+  "vertical": "flightrates",
+  "userAirlineCode": 356
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe57"
+  },
+  "source": "AraJet",
+  "code": "228",
+  "vertical": "flightrates",
+  "userAirlineCode": 617
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefea3"
+  },
+  "source": "Korean airlines",
+  "code": "260",
+  "vertical": "flightrates",
+  "userAirlineCode": 67
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe3a"
+  },
+  "source": "Japan Airlines",
+  "code": "198",
+  "vertical": "flightrates",
+  "userAirlineCode": 66
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefd98"
+  },
+  "source": "Spicejet",
+  "code": "25",
+  "vertical": "flightrates",
+  "userAirlineCode": 19
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe24"
+  },
+  "source": "Comair",
+  "code": "174",
+  "vertical": "flightrates",
+  "userAirlineCode": 477
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe18"
+  },
+  "source": "Maldivian Air",
+  "code": "162",
+  "vertical": "flightrates",
+  "userAirlineCode": 465
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdd9"
+  },
+  "source": "Dana Air",
+  "code": "96",
+  "vertical": "flightrates",
+  "userAirlineCode": 343
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe38"
+  },
+  "source": "Garuda Indonesia",
+  "code": "194",
+  "vertical": "flightrates",
+  "userAirlineCode": 79
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe52"
+  },
+  "source": "Transavia",
+  "code": "223",
+  "vertical": "flightrates",
+  "userAirlineCode": 211
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe8b"
+  },
+  "source": "Iceland",
+  "code": "286",
+  "vertical": "flightrates",
+  "userAirlineCode": 65
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefea1"
+  },
+  "source": "Qantas Airways",
+  "code": "308",
+  "vertical": "flightrates",
+  "userAirlineCode": 42
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe76"
+  },
+  "source": "Flair airlines",
+  "code": "265",
+  "vertical": "flightrates",
+  "userAirlineCode": 506
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe79"
+  },
+  "source": "MYAirline",
+  "code": "268",
+  "vertical": "flightrates",
+  "userAirlineCode": 657
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdf2"
+  },
+  "source": "FlyDubai",
+  "code": "123",
+  "vertical": "flightrates",
+  "userAirlineCode": 11
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe70"
+  },
+  "source": "Middle East Airlines",
+  "code": "254",
+  "vertical": "flightrates",
+  "userAirlineCode": 91
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdb8"
+  },
+  "source": "Iran Airtour Airline",
+  "code": "61",
+  "vertical": "flightrates",
+  "userAirlineCode": 269
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe53"
+  },
+  "source": "easyJet",
+  "code": "224",
+  "vertical": "flightrates",
+  "userAirlineCode": 149
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefea0"
+  },
+  "source": "Nexus Airlines",
+  "code": "307",
+  "vertical": "flightrates",
+  "userAirlineCode": 699
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdbd"
+  },
+  "source": "SaudiGulf Airlines",
+  "code": "66",
+  "vertical": "flightrates",
+  "userAirlineCode": 274
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdbb"
+  },
+  "source": "Nesma Airlines",
+  "code": "64",
+  "vertical": "flightrates",
+  "userAirlineCode": 272
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefd9a"
+  },
+  "source": "Emirates",
+  "code": "30",
+  "vertical": "flightrates",
+  "userAirlineCode": 36
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe49"
+  },
+  "source": "Air Prishtina AG",
+  "code": "213",
+  "vertical": "flightrates",
+  "userAirlineCode": 557
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe9a"
+  },
+  "source": "TransNusa",
+  "code": "301",
+  "vertical": "flightrates",
+  "userAirlineCode": 651
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe61"
+  },
+  "source": "Winair",
+  "code": "240",
+  "vertical": "flightrates",
+  "userAirlineCode": 204
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdd1"
+  },
+  "source": "Air Burkina",
+  "code": "86",
+  "vertical": "flightrates",
+  "userAirlineCode": 333
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe9f"
+  },
+  "source": "Neos Air",
+  "code": "306",
+  "vertical": "flightrates",
+  "userAirlineCode": 153
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe2e"
+  },
+  "source": "Malaysia Airlines",
+  "code": "185",
+  "vertical": "flightrates",
+  "userAirlineCode": 81
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe34"
+  },
+  "source": "Super Air Jet",
+  "code": "191",
+  "vertical": "flightrates",
+  "userAirlineCode": 408
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdcb"
+  },
+  "source": "Tianjin Airlines",
+  "code": "80",
+  "vertical": "flightrates",
+  "userAirlineCode": 303
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe26"
+  },
+  "source": "Sudan Airways",
+  "code": "176",
+  "vertical": "flightrates",
+  "userAirlineCode": 479
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdf9"
+  },
+  "source": "Air Astana",
+  "code": "130",
+  "vertical": "flightrates",
+  "userAirlineCode": 98
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe7c"
+  },
+  "source": "Delta Air Lines",
+  "code": "271",
+  "vertical": "flightrates"
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdac"
+  },
+  "source": "Bassaka Air",
+  "code": "48",
+  "vertical": "flightrates",
+  "userAirlineCode": 160
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe68"
+  },
+  "source": "Syphax Airlines",
+  "code": "245",
+  "vertical": "flightrates",
+  "userAirlineCode": 652
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefd94"
+  },
+  "source": "Viva Air Colombia",
+  "code": "19",
+  "vertical": "flightrates",
+  "userAirlineCode": 418
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdd0"
+  },
+  "source": "Air Botswana",
+  "code": "85",
+  "vertical": "flightrates",
+  "userAirlineCode": 332
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe8f"
+  },
+  "source": "ANA",
+  "code": "290",
+  "vertical": "flightrates",
+  "userAirlineCode": 51
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe37"
+  },
+  "source": "Tigerair Airline",
+  "code": "196",
+  "vertical": "flightrates",
+  "userAirlineCode": 526
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe93"
+  },
+  "source": "Air North Australia",
+  "code": "294",
+  "vertical": "flightrates",
+  "userAirlineCode": 383
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefea2"
+  },
+  "source": "Virgin Australia",
+  "code": "309",
+  "vertical": "flightrates",
+  "userAirlineCode": 184
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefde6"
+  },
+  "source": "Tassili Airlines",
+  "code": "111",
+  "vertical": "flightrates",
+  "userAirlineCode": 358
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe1e"
+  },
+  "source": "Guna Airlines",
+  "code": "168",
+  "vertical": "flightrates",
+  "userAirlineCode": 472
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdfa"
+  },
+  "source": "FlyArystan",
+  "code": "131",
+  "vertical": "flightrates",
+  "userAirlineCode": 247
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe33"
+  },
+  "source": "Indonesia AirAsia",
+  "code": "190",
+  "vertical": "flightrates",
+  "userAirlineCode": 2
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefda6"
+  },
+  "source": "Aeromexico",
+  "code": "42",
+  "vertical": "flightrates",
+  "userAirlineCode": 137
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdeb"
+  },
+  "source": "Air Arabia",
+  "code": "116",
+  "vertical": "flightrates",
+  "userAirlineCode": 1
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe0b"
+  },
+  "source": "Star Flyer",
+  "code": "148",
+  "vertical": "flightrates",
+  "userAirlineCode": 405
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefda8"
+  },
+  "source": "Finnair",
+  "code": "44",
+  "vertical": "flightrates",
+  "userAirlineCode": 60
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdfd"
+  },
+  "source": "Arik Air",
+  "code": "134",
+  "vertical": "flightrates",
+  "userAirlineCode": 338
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdc4"
+  },
+  "source": "Airblue",
+  "code": "73",
+  "vertical": "flightrates",
+  "userAirlineCode": 296
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefde2"
+  },
+  "source": "Mombasa Air Safari",
+  "code": "107",
+  "vertical": "flightrates",
+  "userAirlineCode": 354
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefde3"
+  },
+  "source": "Precision Air",
+  "code": "108",
+  "vertical": "flightrates",
+  "userAirlineCode": 355
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe80"
+  },
+  "source": "Southwest Airlines",
+  "code": "275",
+  "vertical": "flightrates",
+  "userAirlineCode": 157
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefde5"
+  },
+  "source": "South African Airways",
+  "code": "110",
+  "vertical": "flightrates",
+  "userAirlineCode": 357
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe45"
+  },
+  "source": "SUN-AIR of Scandinavia",
+  "code": "209",
+  "vertical": "flightrates",
+  "userAirlineCode": 554
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdb0"
+  },
+  "source": "JC International Airlines",
+  "code": "52",
+  "vertical": "flightrates",
+  "userAirlineCode": 164
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdcf"
+  },
+  "source": "Africa World Airlines",
+  "code": "84",
+  "vertical": "flightrates",
+  "userAirlineCode": 331
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe6c"
+  },
+  "source": "Austrian Airlines",
+  "code": "250",
+  "vertical": "flightrates",
+  "userAirlineCode": 53
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdc7"
+  },
+  "source": "Air KBZ",
+  "code": "76",
+  "vertical": "flightrates",
+  "userAirlineCode": 299
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefded"
+  },
+  "source": "Israir",
+  "code": "118",
+  "vertical": "flightrates",
+  "userAirlineCode": 235
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefde9"
+  },
+  "source": "Jazeera Airways",
+  "code": "114",
+  "vertical": "flightrates",
+  "userAirlineCode": 143
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdaf"
+  },
+  "source": "Cebu Pacific",
+  "code": "51",
+  "vertical": "flightrates",
+  "userAirlineCode": 163
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdc2"
+  },
+  "source": "Bhutan Airlines",
+  "code": "71",
+  "vertical": "flightrates",
+  "userAirlineCode": 294
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe3b"
+  },
+  "source": "Virgin Atlantic",
+  "code": "199",
+  "vertical": "flightrates",
+  "userAirlineCode": 38
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe48"
+  },
+  "source": "AlbaStar Airline",
+  "code": "212",
+  "vertical": "flightrates",
+  "userAirlineCode": 556
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe2a"
+  },
+  "source": "Air Vanuatu",
+  "code": "180",
+  "vertical": "flightrates",
+  "userAirlineCode": 483
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdb6"
+  },
+  "source": "VietJet Air",
+  "code": "58",
+  "vertical": "flightrates",
+  "userAirlineCode": 170
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe51"
+  },
+  "source": "Brussels Airlines",
+  "code": "222",
+  "vertical": "flightrates",
+  "userAirlineCode": 55
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdd2"
+  },
+  "source": "Air Cote d'Ivoire",
+  "code": "87",
+  "vertical": "flightrates",
+  "userAirlineCode": 334
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe23"
+  },
+  "source": "Jubba Airways",
+  "code": "173",
+  "vertical": "flightrates",
+  "userAirlineCode": 476
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdd5"
+  },
+  "source": "Airlink",
+  "code": "90",
+  "vertical": "flightrates",
+  "userAirlineCode": 337
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe89"
+  },
+  "source": "Volotea",
+  "code": "284",
+  "vertical": "flightrates",
+  "userAirlineCode": 151
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefe0c"
+  },
+  "source": "Air Kiribati Limited",
+  "code": "149",
+  "vertical": "flightrates",
+  "userAirlineCode": 430
+},{
+  "_id": {
+    "$oid": "64ae65cfd06e77f95bfefdb3"
+  },
+  "source": "MASwings",
+  "code": "55",
+  "vertical": "flightrates",
+  "userAirlineCode": 167
+}]
