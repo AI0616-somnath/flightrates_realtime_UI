@@ -264,7 +264,7 @@ const App = () => {
       <div className="d-flex flex-column p-3 m-3">
         {!loggedIn && (
           <Form.Group className="mb-3">
-            <Form.Label>Email address</Form.Label>
+            <Form.Label>Email</Form.Label>
             <Form.Control
               type="email"
               placeholder="Enter email"
