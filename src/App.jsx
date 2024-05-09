@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Form } from "react-bootstrap"; // Import React Bootstrap components
+import { Card, Form } from "react-bootstrap"; // Import React Bootstrap components
 import source from "./assets/carriers_flightrates.json"
 const App = () => {
   //const [token, setToken] = useState(null);
@@ -11,6 +11,8 @@ const App = () => {
   const [status, setStatus] = useState('');
   const [showStatus, setShowStatus] = useState(false);
   const [loggedIn, setLoggedIn] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [timeoutRef, setTimeoutRef] = useState(null);
   const [loginData, setLoginData] = useState({
     handle: "",
     password: "",
@@ -165,6 +167,7 @@ const App = () => {
   const handleFormSubmit = async (event) => {
     event.preventDefault();
     setShowStatus(true);
+    setSubmitting(true);
     const dynamicData = {
       _OD: [
         {
@@ -234,7 +237,7 @@ const App = () => {
         if (statusData.status !== "completed") {
           setStatus("In Progress...")
           console.log("STATUS IS STILL NOT COMPLETED", statusData.status)
-          setTimeout(checkStatus, 5000); // Check again after 5 seconds
+          setTimeoutRef(setTimeout(checkStatus, 5000));  // Check again after 5 seconds
         } else {
           setStatus('Completed');
           console.log("STATUS IS COMPLETED", statusData.status)
@@ -244,7 +247,12 @@ const App = () => {
     };
     checkStatus();
   }
-
+  const cancelSubmission = () => {
+    setShowStatus(false);
+    setSubmitting(false); // Reset submission process state
+    clearTimeout(timeoutRef);
+    setStatus('');  // Clear the setTimeout() function
+  };
   const handleChange = (event) => {
     const { name, value } = event.target;
     setFormData({
@@ -260,151 +268,175 @@ const App = () => {
     });
   };
   return (
-    <form onSubmit={handleFormSubmit}>
-      <div className="d-flex flex-column p-3 m-3">
-        {!loggedIn && (
-          <Form.Group className="mb-3">
-            <Form.Label>Email</Form.Label>
-            <Form.Control
-              type="email"
-              placeholder="Enter email"
-              name="email"
-              value={loginData.email}
-              onChange={handleLoginChange}
-            />
-          </Form.Group>
-        )}
+    <div className="d-flex justify-content-center">
+      <Card className="m-3">
+        <Card.Body>
+          <form onSubmit={handleFormSubmit}>
+            <div className="d-flex flex-column p-3 m-3">
+              {!loggedIn && (
+                <Form.Group className="mb-3">
+                  <Form.Label>Email</Form.Label>
+                  <Form.Control
+                    type="email"
+                    placeholder="Enter email"
+                    name="email"
+                    value={loginData.email}
+                    onChange={handleLoginChange}
+                  />
+                </Form.Group>
+              )}
 
-        {!loggedIn && (
-          <Form.Group className="mb-3">
-            <Form.Label>Password</Form.Label>
-            <Form.Control
-              type="password"
-              placeholder="Password"
-              name="password"
-              value={loginData.password}
-              onChange={handleLoginChange}
-            />
-          </Form.Group>
-        )}
+              {!loggedIn && (
+                <Form.Group className="mb-3">
+                  <Form.Label>Password</Form.Label>
+                  <Form.Control
+                    type="password"
+                    placeholder="Password"
+                    name="password"
+                    value={loginData.password}
+                    onChange={handleLoginChange}
+                  />
+                </Form.Group>
+              )}
 
-        {!loggedIn && (
-          <button
-            type="button"
-            onClick={loginAndFetchData}
-            className="btn btn-primary"
-          >
-            Login
-          </button>
-        )}
+              {!loggedIn && (
+                <button
+                  type="button"
+                  onClick={loginAndFetchData}
+                  className="btn btn-primary"
+                >
+                  Login
+                </button>
+              )}
 
-        {loggedIn && (
-          <>
-            <Form.Group className="">
-              <Form.Label className="fw-bold">Fly From</Form.Label>
-              <Form.Select
-                name="flyFrom"
-                onChange={handleChange}
-                value={formData.flyFrom}
-                className="mb-3 custom-select-sm"
-              >
-                {airportData?.airports?.map((airport) => (
-                  <option value={airport._id} key={airport._id}>
-                    {airport.airportName}
-                  </option>
-                ))}
-              </Form.Select>
-            </Form.Group>
+              {loggedIn && (
+                <>
+                  <Form.Group className="">
+                    <Form.Label className="fw-bold">Fly From</Form.Label>
+                    <Form.Select
+                      name="flyFrom"
+                      onChange={handleChange}
+                      value={formData.flyFrom}
+                      className="mb-3 custom-select-sm"
+                    >
+                      {airportData?.airports?.map((airport) => (
+                        <option value={airport._id} key={airport._id}>
+                          {airport.airportName}
+                        </option>
+                      ))}
+                    </Form.Select>
+                  </Form.Group>
 
-            <Form.Group className="">
-              <Form.Label className="fw-bold">Fly To</Form.Label>
-              <Form.Select
-                name="flyTo"
-                onChange={handleChange}
-                value={formData.flyTo}
-                className="mb-3 custom-select-sm"
-              >
-                {airportData?.airports?.map((airport) => (
-                  <option value={airport._id} key={airport._id}>
-                    {airport.airportName}
-                  </option>
-                ))}
-              </Form.Select>
-            </Form.Group>
+                  <Form.Group className="">
+                    <Form.Label className="fw-bold">Fly To</Form.Label>
+                    <Form.Select
+                      name="flyTo"
+                      onChange={handleChange}
+                      value={formData.flyTo}
+                      className="mb-3 custom-select-sm"
+                    >
+                      {airportData?.airports?.map((airport) => (
+                        <option value={airport._id} key={airport._id}>
+                          {airport.airportName}
+                        </option>
+                      ))}
+                    </Form.Select>
+                  </Form.Group>
 
-            <Form.Group className="">
-              <Form.Label className="fw-bold">Cabin Class</Form.Label>
-              <Form.Select
-                name="cabinClass"
-                onChange={handleChange}
-                value={formData.cabinClass}
-                className="mb-3 custom-select-sm"
-              >
-                {cabinClass?.cabinclasses?.map((cabin) => (
-                  <option value={cabin._id} key={cabin._id}>
-                    {cabin.name}
-                  </option>
-                ))}
-              </Form.Select>
-            </Form.Group>
+                  <Form.Group className="">
+                    <Form.Label className="fw-bold">Cabin Class</Form.Label>
+                    <Form.Select
+                      name="cabinClass"
+                      onChange={handleChange}
+                      value={formData.cabinClass}
+                      className="mb-3 custom-select-sm"
+                    >
+                      {cabinClass?.cabinclasses?.map((cabin) => (
+                        <option value={cabin._id} key={cabin._id}>
+                          {cabin.name}
+                        </option>
+                      ))}
+                    </Form.Select>
+                  </Form.Group>
 
-            <Form.Group className="">
-              <Form.Label className="fw-bold">Pos Value</Form.Label>
-              <Form.Select
-                name="_pos"
-                onChange={handleChange}
-                value={formData._pos}
-                className="mb-3 custom-select-sm"
-              >
-                {posValue?.poses?.map((pos) => (
-                  <option value={pos._id} key={pos._id}>
-                    {pos.countryCode}
-                  </option>
-                ))}
-              </Form.Select>
-            </Form.Group>
+                  <Form.Group className="">
+                    <Form.Label className="fw-bold">Pos Value</Form.Label>
+                    <Form.Select
+                      name="_pos"
+                      onChange={handleChange}
+                      value={formData._pos}
+                      className="mb-3 custom-select-sm"
+                    >
+                      {posValue?.poses?.map((pos) => (
+                        <option value={pos._id} key={pos._id}>
+                          {pos.countryCode}
+                        </option>
+                      ))}
+                    </Form.Select>
+                  </Form.Group>
 
-            <Form.Group className="">
-              <Form.Label className="fw-bold">Currency</Form.Label>
-              <Form.Select
-                name="_currency"
-                onChange={handleChange}
-                value={formData._currency}
-                className="mb-3 custom-select-sm"
-              >
-                {currency?.currencies?.map((cur) => (
-                  <option value={cur._id} key={cur._id}>
-                    {cur.iso}
-                  </option>
-                ))}
-              </Form.Select>
-            </Form.Group>
+                  <Form.Group className="">
+                    <Form.Label className="fw-bold">Currency</Form.Label>
+                    <Form.Select
+                      name="_currency"
+                      onChange={handleChange}
+                      value={formData._currency}
+                      className="mb-3 custom-select-sm"
+                    >
+                      {currency?.currencies?.map((cur) => (
+                        <option value={cur._id} key={cur._id}>
+                          $ {cur.iso}
+                        </option>
+                      ))}
+                    </Form.Select>
+                  </Form.Group>
 
-            <Form.Group className="">
-              <Form.Label className="fw-bold">Carriers</Form.Label>
-              <Form.Select
-                name="_carriers"
-                onChange={handleChange}
-                value={formData._carriers}
-                className="mb-3 custom-select-sm"
-              >
-                {source.map((s) => (
-                  <option value={s._id.$oid} key={s._id.$oid}>
-                    {s.source}
-                  </option>
-                ))}
-              </Form.Select>
-            </Form.Group>
+                  <Form.Group className="">
+                    <Form.Label className="fw-bold">Carriers</Form.Label>
+                    <Form.Select
+                      name="_carriers"
+                      onChange={handleChange}
+                      value={formData._carriers}
+                      className="mb-3 custom-select-sm"
+                    >
+                      {source.map((s) => (
+                        <option value={s._id.$oid} key={s._id.$oid}>
+                          {s.source}
+                        </option>
+                      ))}
+                    </Form.Select>
+                  </Form.Group>
 
-            <div className={`Status: ${showStatus ? 'in-progress' : 'hidden'}`}>{status}</div>
-            <button type="submit" className="btn btn-primary">
-              Submit
-            </button>
-          </>
-        )}
-      </div>
-    </form>
-
+                  <div className={`Status: ${showStatus ? 'in-progress' : 'hidden'}`}>{status}</div>
+                  {loggedIn && (
+                    <div>
+                      <button
+                        type="submit"
+                        className="btn btn-primary"
+                        disabled={submitting} // Disable button during submission
+                      >
+                        Submit
+                      </button>
+                      <button
+                        type="button"
+                        className="btn btn-secondary mx-2"
+                        onClick={cancelSubmission}
+                        disabled={!submitting} // Disable button if submission process not started
+                      >
+                        Cancel
+                      </button>
+                    </div>
+                  )}
+                  {/* <button type="submit" className="btn btn-primary">
+                    Submit
+                  </button> */}
+                </>
+              )}
+            </div>
+          </form>
+        </Card.Body>
+      </Card>
+    </div>
   );
 };
 
