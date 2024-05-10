@@ -155,7 +155,6 @@ const App = () => {
   // }, []);
 
   useEffect(() => {
-    //const fetchedToken = sessionStorage.getItem("Authorization");
     if (loggedIn) {
       fetchData();
       fetchCabinClasses();
@@ -176,9 +175,7 @@ const App = () => {
         },
       ],
       _cabinClasses: [formData.cabinClass],
-      // _pos: formData.pos,
       _pos: formData._pos,
-      // Add your additional values here
       _source: "64ae65cfd06e77f95bfefd95",
       _carriers: [formData._carriers],
       _currency: formData._currency,
@@ -201,7 +198,6 @@ const App = () => {
       },
       fareType: "Doctors",
     };
-
     const finalData = { ...dynamicData, ...staticData };
     const token = sessionStorage.getItem("Authorization");
     if (!token) {
@@ -210,7 +206,6 @@ const App = () => {
       );
       return;
     }
-
     // Post finalData to the API endpoint
     await fetch("https://flightrates-api.aggregateintelligence.com/api/v1/realtime", {
       method: "POST",
@@ -238,12 +233,10 @@ const App = () => {
             },
           });
           const data = await response.json();
-
           // Check if the status is not completed
           if (data.status !== 'completed') {
             setStatus(`Shop Id: ${shopId.shopId} - Checking for every Five Sec`);
             console.log("STATUS IS STILL NOT COMPLETED", data.status);
-
             // Use a timeout to call the function again in 5 seconds
             setTimeoutRef(setTimeout(checkStatus, 5000));
           } else {
@@ -257,12 +250,10 @@ const App = () => {
         }
       }
     };
-
     // Call checkStatus immediately if shopId is not null
     if (shopId !== null) {
       checkStatus();
     }
-
     // Cleanup function to clear timeout when shopId changes or the component unmounts
     return () => {
       if (setTimeoutRef) {
