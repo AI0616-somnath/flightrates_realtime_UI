@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Card, Form } from "react-bootstrap"; // Import React Bootstrap components
+import { Card, Form, Spinner } from "react-bootstrap"; // Import React Bootstrap components
 import source from "./assets/carriers_flightrates.json"
 const App = () => {
   //const [token, setToken] = useState(null);
@@ -222,31 +222,54 @@ const App = () => {
     }).then(response => response.json())
       .then(data => setShopId(data))
       .catch(error => console.error('Error fetching data:', error));
+  }
 
+  useEffect(() => {
+    // Define the checkStatus function inside the useEffect
     const checkStatus = async () => {
+      const token = sessionStorage.getItem("Authorization");
       if (shopId !== null) {
-        console.log(shopId)
-        let statusResponse = await fetch(`https://flightrates-api.aggregateintelligence.com/api/v1/shop/status/${shopId.shopId}`,
-          {
+        console.log(shopId);
+        try {
+          // Fetch the status of the shopId
+          const response = await fetch(`https://flightrates-api.aggregateintelligence.com/api/v1/shop/status/${shopId.shopId}`, {
             headers: {
-              Authorization: `Bearer ${token}`
+              Authorization: `Bearer ${token}`,
             },
+          });
+          const data = await response.json();
+
+          // Check if the status is not completed
+          if (data.status !== 'completed') {
+            setStatus(`Shop Id: ${shopId.shopId} - Checking for every Five Sec`);
+            console.log("STATUS IS STILL NOT COMPLETED", data.status);
+
+            // Use a timeout to call the function again in 5 seconds
+            setTimeoutRef(setTimeout(checkStatus, 5000));
+          } else {
+            // Handle the completed status
+            setStatus('completed');
+            console.log("STATUS IS COMPLETED", data.status);
+            window.alert("Shop status is completed!"); // Handle the completion
           }
-        )
-        let statusData = await statusResponse.json();
-        if (statusData.status !== "completed") {
-          setStatus("In Progress...")
-          console.log("STATUS IS STILL NOT COMPLETED", statusData.status)
-          setTimeoutRef(setTimeout(checkStatus, 5000));  // Check again after 5 seconds
-        } else {
-          setStatus('Completed');
-          console.log("STATUS IS COMPLETED", statusData.status)
-          window.alert("Shop status is completed!"); // Do something when status is completed
+        } catch (error) {
+          console.error('Error checking shop status:', error);
         }
       }
     };
-    checkStatus();
-  }
+
+    // Call checkStatus immediately if shopId is not null
+    if (shopId !== null) {
+      checkStatus();
+    }
+
+    // Cleanup function to clear timeout when shopId changes or the component unmounts
+    return () => {
+      if (setTimeoutRef) {
+        clearTimeout(setTimeoutRef);
+      }
+    };
+  }, [shopId]);
   const cancelSubmission = () => {
     setShowStatus(false);
     setSubmitting(false); // Reset submission process state
@@ -407,7 +430,10 @@ const App = () => {
                     </Form.Select>
                   </Form.Group>
 
-                  <div className={`Status: ${showStatus ? 'in-progress' : 'hidden'}`}>{status}</div>
+                  {submitting && <Spinner animation="border" role="status" />}
+                  <div className={`Status: ${showStatus ? 'in-progress' : 'hidden'}`}>
+                    {status}
+                  </div>
                   {loggedIn && (
                     <div>
                       <button
