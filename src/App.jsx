@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react';
 import { Card, Form, Spinner } from 'react-bootstrap'; // Import React Bootstrap components
 import source from './assets/carriers_flightrates.json';
+
 const App = () => {
   //const [token, setToken] = useState(null);
   const [airportData, setAirportData] = useState([]);
   const [cabinClass, setCabinClass] = useState([]);
-  const [posValue, setposValue] = useState([]);
+  const [posValue, setPosValue] = useState([]);
   const [currency, setCurrency] = useState([]);
   const [shopId, setShopId] = useState(null);
   const [status, setStatus] = useState('');
@@ -26,10 +27,12 @@ const App = () => {
     _carriers: [],
   });
   const [elapsedTime, setElapsedTime] = useState(0);
+  const [errors, setErrors] = useState({});
 
   const startTimer = () => {
     setElapsedTime((prevTime) => prevTime + 5);
   };
+
   const loginAndFetchData = async () => {
     try {
       const response = await fetch(
@@ -116,7 +119,7 @@ const App = () => {
         return;
       }
       const response = await fetch(
-        ' https://flightrates-api.aggregateintelligence.com/api/v1/references/poses',
+        'https://flightrates-api.aggregateintelligence.com/api/v1/references/poses',
         {
           headers: {
             Authorization: `Bearer ${token}`, // Add JWT token to the Authorization header
@@ -124,7 +127,7 @@ const App = () => {
         }
       );
       const jsonData = await response.json();
-      setposValue(jsonData);
+      setPosValue(jsonData);
     } catch (error) {
       console.error('Error fetching data:', error);
     }
@@ -140,7 +143,7 @@ const App = () => {
         return;
       }
       const response = await fetch(
-        ' https://flightrates-api.aggregateintelligence.com/api/v1/references/currencies',
+        'https://flightrates-api.aggregateintelligence.com/api/v1/references/currencies',
         {
           headers: {
             Authorization: `Bearer ${token}`, // Add JWT token to the Authorization header
@@ -153,10 +156,6 @@ const App = () => {
       console.error('Error fetching data:', error);
     }
   };
-  // fetchPosData();
-  // useEffect(() => {
-  //   loginAndFetchData();
-  // }, []);
 
   useEffect(() => {
     if (loggedIn) {
@@ -171,6 +170,21 @@ const App = () => {
     event.preventDefault();
     setShowStatus(true);
     setSubmitting(true);
+
+    // Validate form data
+    const newErrors = {};
+    if (!formData.flyFrom) newErrors.flyFrom = 'Please select a departure airport';
+    if (!formData.flyTo) newErrors.flyTo = 'Please select a destination airport';
+    if (!formData.cabinClass) newErrors.cabinClass = 'Please select a cabin class';
+    if (!formData._pos) newErrors._pos = 'Please select a POS value';
+    if (!formData._currency) newErrors._currency = 'Please select a currency';
+    if (!formData._carriers.length) newErrors._carriers = 'Please select at least one carrier';
+    if (Object.keys(newErrors).length > 0) {
+      setErrors(newErrors);
+      setSubmitting(false);
+      return;
+    }
+
     const dynamicData = {
       _OD: [
         {
@@ -202,6 +216,7 @@ const App = () => {
       },
       fareType: 'Doctors',
     };
+
     const finalData = { ...dynamicData, ...staticData };
     const token = sessionStorage.getItem('Authorization');
     if (!token) {
@@ -210,6 +225,7 @@ const App = () => {
       );
       return;
     }
+
     // Post finalData to the API endpoint
     await fetch(
       'https://flightrates-api.aggregateintelligence.com/api/v1/realtime',
@@ -265,10 +281,12 @@ const App = () => {
         }
       }
     };
+
     // Call checkStatus immediately if shopId is not null
     if (shopId !== null) {
       checkStatus();
     }
+
     // Cleanup function to clear timeout when shopId changes or the component unmounts
     return () => {
       if (timeoutRef) {
@@ -276,6 +294,7 @@ const App = () => {
       }
     };
   }, [shopId]);
+
   const cancelSubmission = () => {
     setShowStatus(false);
     setSubmitting(false); // Reset submission process state
@@ -283,6 +302,7 @@ const App = () => {
     setStatus('');
     setElapsedTime(0); // Clear the setTimeout() function
   };
+
   const handleChange = (event) => {
     const { name, value } = event.target;
     setFormData({
@@ -290,6 +310,7 @@ const App = () => {
       [name]: value,
     });
   };
+
   const handleLoginChange = (event) => {
     const { name, value } = event.target;
     setLoginData({
@@ -297,6 +318,7 @@ const App = () => {
       [name]: value,
     });
   };
+
   return (
     <div className="d-flex justify-content-center">
       <Card className="m-3">
@@ -356,6 +378,7 @@ const App = () => {
                         </option>
                       ))}
                     </Form.Select>
+                    {errors.flyFrom && <div className="text-danger">{errors.flyFrom}</div>}
                   </Form.Group>
 
                   <Form.Group className="">
@@ -374,6 +397,7 @@ const App = () => {
                         </option>
                       ))}
                     </Form.Select>
+                    {errors.flyTo && <div className="text-danger">{errors.flyTo}</div>}
                   </Form.Group>
 
                   <Form.Group className="">
@@ -392,6 +416,7 @@ const App = () => {
                         </option>
                       ))}
                     </Form.Select>
+                    {errors.cabinClass && <div className="text-danger">{errors.cabinClass}</div>}
                   </Form.Group>
 
                   <Form.Group className="">
@@ -410,6 +435,7 @@ const App = () => {
                         </option>
                       ))}
                     </Form.Select>
+                    {errors._pos && <div className="text-danger">{errors._pos}</div>}
                   </Form.Group>
 
                   <Form.Group className="">
@@ -428,6 +454,7 @@ const App = () => {
                         </option>
                       ))}
                     </Form.Select>
+                    {errors._currency && <div className="text-danger">{errors._currency}</div>}
                   </Form.Group>
 
                   <Form.Group className="">
@@ -446,6 +473,7 @@ const App = () => {
                         </option>
                       ))}
                     </Form.Select>
+                    {errors._carriers && <div className="text-danger">{errors._carriers}</div>}
                   </Form.Group>
 
                   {submitting && <Spinner animation="border" role="status" />}
@@ -474,9 +502,6 @@ const App = () => {
                       </button>
                     </div>
                   )}
-                  {/* <button type="submit" className="btn btn-primary">
-                    Submit
-                  </button> */}
                 </>
               )}
             </div>
